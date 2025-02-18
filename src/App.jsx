@@ -5,9 +5,9 @@ import Leaderboard from "./components/leaderboard/Leaderboard";
 
 const App = () => {
   return (
-    <div className="bg-gradient-to-r from-red-500 to-orange-500 h-screen text-white ">
+    <div className="bg-gradient-to-r from-red-500 to-orange-500 min-h-screen text-white ">
       <Header />
-      <div className="grid-cols-5 grid max-w-[1220px] mx-auto  px-6 py-6 gap-8 ">
+      <div className="grid-rows-2 md:grid-rows-1 md:grid-cols-5 grid max-w-[1220px] mx-auto  px-6 py-6 gap-8 ">
         <div className="col-span-3 ">
           <QuizBox />
         </div>

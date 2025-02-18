@@ -5,7 +5,6 @@ const Header = () => {
     <div>
       <div className="flex justify-between text-3xl px-12 py-4">
         <h2>Quiz App</h2>
-        <h2>Username : Aakarsh Verma</h2>
       </div>
     </div>
   );
