@@ -1,8 +1,38 @@
-# React + Vite
+# QuizApp - Interactive Quiz Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+QuizApp is an interactive quiz platform where users can take quizzes, receive instant feedback, and track their progress. It supports multiple attempts, timer-based quizzes, and progress tracking using a scoreboard. The app is built with React and Vite, and deployed on Vercel.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- **Quiz Creation & Management**: Display quizzes, allow multiple attempts, and show attempt history.
+- **User Interaction**: Instant feedback on answers and timer-based quizzes (e.g., 30 seconds per question).
+- **Progress Tracking**: Scoreboard at the end of each quiz and quiz history saved using IndexedDB.
+- **Deployment**: Hosted on Vercel for easy access.
+
+---
+
+## Technologies Used
+- **Frontend**: React, Vite
+- **State Management**: React Hooks (useState, useEffect)
+- **Storage**: IndexedDB
+- **Deployment**: Vercel
+
+---
+
+## How to Run Locally
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/QuizApp.git
+   cd QuizApp
+
+2. **Install dependencies:**:
+    ```bash
+    npm install
+    # or
+    yarn install
+
+3.**Run the development server:**;
+  ```bash
+    npm run dev
